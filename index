@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embedded Python Script</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+        pre {
+            background-color: #f4f4f4;
+            padding: 20px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            overflow-x: auto;
+        }
+        code {
+            font-family: Consolas, "Courier New", Courier, monospace;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+<h1>My Python Script</h1>
+<p>Here is an example of my Python script:</p>
+
+<pre><code>
+# Python script starts here
+Greeting = "Welcome to the Band Name Generator."
+print(Greeting)
+City = input("What City did you grow up in?\n")
+Pet_Name = input("What's your pet's name?\n")
+
+print("Your band name could be " + City + " " + Pet_Name)
+def greet(name):
+    print(f"Hello, {name}!")
+
+greet("World")
+</code></pre>
+
+</body>
+</html>
